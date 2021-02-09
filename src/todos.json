@@ -1,0 +1,35 @@
+{
+  "todos":[
+    {
+      "title": "Trarea 1",
+      "responsable": "Antonio",
+      "description": "Ésta es la tarea 1",
+      "priority": "low"
+    },
+    {
+      "title": "Trarea 2",
+      "responsable": "Fernando",
+      "description": "Ésta es la tarea 2",
+      "priority": "medium"
+    },
+
+    {
+      "title": "Trarea 3",
+      "responsable": "Carlos",
+      "description": "Ésta es la tarea 3",
+      "priority": "high"
+    },
+    {
+      "title": "Trarea 4",
+      "responsable": "Ivan",
+      "description": "Ésta es la tarea 4",
+      "priority": "high"
+    },
+    {
+      "title": "Trarea 5",
+      "responsable": "Camilo",
+      "description": "Ésta es la tarea 5",
+      "priority": "low"
+    }
+  ]
+}
