@@ -1,17 +1,27 @@
 import React, { Component } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser } from '@fortawesome/free-solid-svg-icons'
 
-class Navigation extends Component {
-  render() {
-    return (
-      <nav className="navbar narvbar-dark dg-dark">
-        <div>
-          <h1 className="text-white"><FontAwesomeIcon icon={faUser} />&nbsp;&nbsp;{this.props.title}</h1>
-        </div>
-      </nav>
-    );
-  }
+class Navigation extends Component{
+
+
+
+    render(){
+        return(
+            <nav className="navbar">
+                <div className="card-dark">
+
+                    <a href="/" className="text-muted text-decoration-none">
+                    <h1>
+                        {this.props.title}
+                    </h1>
+                    </a>
+                    <span className="badge badge-pill badge-light ml-2 text-muted">
+                        <p className="text-warning" >No. Clientes. {this.props.nclientes}</p>
+                    </span>
+                </div>
+            </nav>
+
+        );
+    }
 }
-
+    
 export default Navigation;
