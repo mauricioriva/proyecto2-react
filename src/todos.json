@@ -1,35 +1,47 @@
 {
   "todos":[
     {
-      "title": "Trarea 1",
-      "responsable": "Antonio",
-      "description": "Ésta es la tarea 1",
-      "priority": "low"
+      "nombre": "Antonio",
+      "apellidos": "Ruiz Gonzales",
+      "email": "Antonio@gmail.com",
+      "idcliente": "1",
+      "region": "LAN"
     },
     {
-      "title": "Trarea 2",
-      "responsable": "Fernando",
-      "description": "Ésta es la tarea 2",
-      "priority": "medium"
+      "nombre": "Ed",
+      "apellidos": "Sheeran",
+      "email": "EdSheranoficial@gmail.com",
+      "idcliente": "2",
+      "region": "LAS"
     },
 
     {
-      "title": "Trarea 3",
-      "responsable": "Carlos",
-      "description": "Ésta es la tarea 3",
-      "priority": "high"
+      "nombre": "Brehm",
+      "apellidos": "Brehm",
+      "email": "Laura",
+      "idcliente": "3",
+      "region": "EUW"
     },
     {
-      "title": "Trarea 4",
-      "responsable": "Ivan",
-      "description": "Ésta es la tarea 4",
-      "priority": "high"
+      "nombre": "Laferte",
+      "apellidos": "Laferte",
+      "email": "Mon",
+      "idcliente": "4",
+      "region": "NA"
     },
     {
-      "title": "Trarea 5",
-      "responsable": "Camilo",
-      "description": "Ésta es la tarea 5",
-      "priority": "low"
+      "nombre": "Sesto",
+      "apellidos": "Sesto",
+      "email": "Camilo@gmail.com",
+      "idcliente": "5",
+      "region": "OCE"
+    },
+    {
+      "nombre": "Varoshnikov",
+      "apellidos": "Varoshnikov",
+      "email": "IvanVar@mail.ru",
+      "idcliente": "6",
+      "region": "RU"
     }
   ]
 }
