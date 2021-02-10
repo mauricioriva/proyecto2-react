@@ -146,7 +146,7 @@ class Clientes extends Component{
                 <div className="row mt-4">
                     {todos}
                     <div className = "card mt-4 bg-dark ">
-                        <button className="btn-group-lg btn-light btn-outline-primary" onClick={() => this.setState({showForm: true}) }> Nueva Tarea</button>
+                        <button className="btn-group-lg btn-light btn-outline-primary" onClick={() => this.setState({showForm: true}) }> Nuevo Cliente</button>
                         {this.state.showForm ? this.showForm() : null}
                     </div>
 
