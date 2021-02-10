@@ -16,23 +16,23 @@
     },
 
     {
-      "nombre": "Brehm",
+      "nombre": "Laura",
       "apellidos": "Brehm",
-      "email": "Laura",
+      "email": "LauraB@gmail.com",
       "idcliente": "3",
       "region": "EUW"
     },
     {
-      "nombre": "Laferte",
+      "nombre": "Mon",
       "apellidos": "Laferte",
-      "email": "Mon",
+      "email": "monLaferteOf@gmail.com",
       "idcliente": "4",
       "region": "NA"
     },
     {
-      "nombre": "Sesto",
+      "nombre": "Camilo",
       "apellidos": "Sesto",
-      "email": "Camilo@gmail.com",
+      "email": "CamiloSesto@gmail.com",
       "idcliente": "5",
       "region": "OCE"
     },

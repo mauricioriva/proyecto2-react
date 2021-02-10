@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component, Profiler } from 'react';
 import { todos } from '../todos.json';
-
+import profile from '../profile.jpg';
 
 
 class Clientes extends Component{
@@ -107,21 +107,35 @@ class Clientes extends Component{
 
         const todos = this.state.todos.map((todo,i) => {
         return(
-                <div className = "col-md-4">
-                    <div className = "card mt-4">
+                <div>
+                    <div className = "card">
                         <div className = "class-header">
                             <h3 className="text-light bg-dark" ><mark>{todo.idcliente}</mark> {todo.apellidos}</h3>
-                            <span className="badge badge-pill badge-danger ml-1"> <p className="text-dark">Región: {todo.region} </p></span>
+                            <span className="badge badge-pill badge-danger ml-1"> <p className="text-dark">Región:{todo.region} </p></span>
                         </div>
                         <div className= "card-body border">
-                            <p className="text-dark "></p>
-                            <p className="text-dark">{todo.email}</p>
+                            <div className = "container">
+                                <div className = "row">
+                                    <div className = "col">
+                                        <img src={profile} alt="profile Pic" width="150" height="200" />
+                                    </div>
+                                    <div className = "col">
+                                        <p className="text-dark "><b>Nombre: </b>{todo.nombre}</p>
+
+                                        <p className="text-dark"><b>Correo: </b>{todo.email}</p>
+                                    </div>
+
+                                </div>
+                            </div>
                         </div>
                         <div className="card-footer">
                             <button className="btn btn-danger" onClick={this.removeTodo.bind(this,i)}> Delete</button>
                         </div>
+                        
                     </div>
-                </div>
+                    &nbsp;&nbsp;
+                </div>   
+
 
 
 
