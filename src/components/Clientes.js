@@ -130,15 +130,13 @@ class Clientes extends Component{
                         </div>
                         <div className="card-footer">
                             <button className="btn btn-danger" onClick={this.removeTodo.bind(this,i)}> Delete</button>
+                            &nbsp;&nbsp;
+                            <button className="btn btn-secondary" onClick={this.removeTodo.bind(this,i)}>Cards</button>
                         </div>
                         
                     </div>
                     &nbsp;&nbsp;
                 </div>   
-
-
-
-
 
 
         )
